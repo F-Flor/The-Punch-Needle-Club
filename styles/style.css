@@ -1,0 +1,222 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*texto*/
+.titulo h1 {
+    font-size: 700%;
+    color: #f0a1b3;
+    font-weight: bolder;
+}
+h2 {
+    font-size: 300%;
+    font-weight: bold;
+    color: #f0ecdf;
+}
+.darktxt {
+    color: #192839;
+    font-size: 120%;
+    margin: 0;
+}
+.lighttxt {
+    color: #f0ecdf;
+    font-size: 120%;
+}
+
+/*barra de navegación*/
+nav {
+    background-color: #192839;
+}
+.nav-link{
+    color: #f0ecdf;
+    font-weight: 600;
+    margin: 0 30px;
+    font-size: 110%;
+}
+.nav-aline{
+    justify-content: flex-end;
+}
+.navbar{
+    padding: 15px 16px;
+}
+.nav-item:hover {
+    background-color: #f0a1b3;
+    color: #192839;
+}
+
+/*Sección "portada"*/
+.misc1 {
+    position: absolute;
+    left: 630px;
+    top: 250px;
+    width: 220px;
+}
+
+.titulo {
+    align-self: end;
+}
+.titulo p{
+    margin-right: 140px;
+}
+/*carousel*/
+#portada {
+    background-color: #f0ecdf;
+    padding: 140px 120px 100px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+#carousel {
+    justify-self: end;
+}
+.img-carousel {
+    width: 850px;
+    border-radius: 20px;
+}
+
+/*Banda*/
+.band {
+    width: 100%;
+    background-color: #f0a1b3;
+    color: #f0ecdf;
+    padding: 10px;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+/*Sección "Que es punch needle"*/
+.misc2 {
+    position: absolute;
+    right: 140px;
+    top: 1500px;
+    width: 300px;
+}
+
+#que-es {
+    background-color: #192839;
+    padding: 120px 120px 120px 0;
+    display: grid;
+    grid-template-columns: 950px 700px;
+}
+.img1 {
+    border-radius: 0 20px 20px 0;
+    width: 800px;
+}
+#que-es-txt {
+    margin-top: 100px;
+}
+
+/*Sección "video"*/
+.video {
+    padding: 100px;
+    background-color: #f0ecdf; opacity: 1; background-image:  linear-gradient(#f0a1b3 2.6px, transparent 2.6px), linear-gradient(to right, #f0a1b3 2.6px, #f0ecdf 2.6px); background-size: 52px 52px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f0a1b3;
+    padding: 40px 50px;
+    max-width: 980px;
+}
+.container div p {
+    font-size: 180%;
+    font-weight: 600;
+    width: 140px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-left: 25px;
+}
+
+/*Sección "Productos"*/
+#productos {
+    padding: 120px;
+    background-color: #192839; 
+}
+.misc3 {
+    position: absolute;
+    right: 80px;
+    top: 2550px;
+    width: 500px;
+}
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #192839;
+    margin-top: 40px;
+}
+.card img {
+    width: 300px;
+}
+.tarjetas div {
+    width: 302px;
+    margin: 20px;
+    background-color: #f0ecdf;
+    text-align: center;
+    border-radius: 0;
+}
+h3.nombre {
+    font-size: 110%;
+    color: #192839;
+    margin: 25px;
+}
+.price {
+    color: ;
+    font-size: 22px;
+  }
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #f0ecdf;
+    background-color: #f0a1b3;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 130%;
+    font-weight: 600;
+    margin: 0;
+}
+.card button:hover {
+    opacity: 0.8;
+}
+
+#freebies {
+    background-color: #f0ecdf; opacity: 1; background-image:  linear-gradient(#f0a1b3 2.6px, transparent 2.6px), linear-gradient(to right, #f0a1b3 2.6px, #f0ecdf 2.6px); background-size: 52px 52px;
+    padding: 0 120px 120px;
+}
+.bordados1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+.bordados2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bordados-icon {
+    width: 250px;
+    margin: 0 30px;
+}
+.bordados-icon:hover {
+    transform: scale(1.05);
+}
+#freebies h3 {
+    color: #192839;
+    font-size: 170%;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f0a1b3;
+    padding: 120px 20px 20px;
+}
+
+/*footer*/
+footer {
+    background-color: #192839;
+    color: #f0ecdf;
+    text-align: center;
+    padding: 15px;
+  }
