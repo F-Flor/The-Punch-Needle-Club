@@ -213,6 +213,11 @@ h3.nombre {
     padding: 120px 20px 20px;
 }
 
+/*Quienes somos*/
+#quienes-somos h2 {
+    text-align: center;
+}
+
 /*footer*/
 footer {
     background-color: #192839;
