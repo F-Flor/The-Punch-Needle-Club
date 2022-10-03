@@ -277,12 +277,13 @@ th, td {
 th {
     font-size: 150%;
 }
-#quienes-somos img {
+table img {
     width: 200px;
     border-radius: 20px;
     align-items: center;
 }
-misc4 {
+
+/*misc4 {
     position: absolute;
     left: 10px;
     bottom: 400px;
@@ -294,6 +295,7 @@ misc5 {
     bottom: 300px;
     width: 500px;
 }
+*/
 
 /*footer*/
 footer {
