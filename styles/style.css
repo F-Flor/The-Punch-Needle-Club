@@ -282,6 +282,18 @@ th {
     border-radius: 20px;
     align-items: center;
 }
+misc4 {
+    position: absolute;
+    left: 10px;
+    bottom: 400px;
+    width: 500px;
+}
+misc5 {
+    position: absolute;
+    right: 20px;
+    bottom: 300px;
+    width: 500px;
+}
 
 /*footer*/
 footer {
