@@ -4,11 +4,13 @@
 
 /*TEXTO*/
 h1 {
-    font-size: 300%;
+    font-size: 200%;
     font-weight: bolder;
     color: #192839;
     text-align: center;
     background-color: #f0ecdf;
+    margin: 0;
+    padding: 0;
 }
 h2{
     font-size: 110%;
@@ -17,7 +19,7 @@ h2{
 
 /*HEADER*/
 header {
-    padding: 90px 90px 20px;
+    padding: 50px 60px 20px;
     background-color: #f0ecdf;
 }
 .btnVolver {
@@ -33,7 +35,6 @@ body{
     background-color: #f0ecdf;
     color: #192839;
     margin: 0;
-    line-height: 2;
     box-sizing: border-box;
 }
 
@@ -41,7 +42,7 @@ body{
 .formulario {
     background-color: #f0ecdf;
     margin: 0;
-    padding-bottom: 20px;
+    line-height: 2;
 }
 form{
     background-color: #f0ecdf;

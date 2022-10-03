@@ -39,7 +39,7 @@ nav {
 .navbar{
     padding: 15px 16px;
 }
-.nav-item:hover {
+.nav-link:hover {
     background-color: #f0a1b3;
     color: #192839;
 }
@@ -236,7 +236,7 @@ h3.nombre {
 }
 .bordados-icon {
     width: 250px;
-    margin: 0 30px;
+    margin: 0 40px;
 }
 .bordados-icon:hover {
     transform: scale(1.05);
@@ -261,12 +261,21 @@ h3.nombre {
     text-align: center;
     padding: 120px 110px 120px;
 }
+#quienes-somos h2 {
+    font-size: 280%;
+    font-weight: bold;
+    color: #192839;
+}
 table {
-    margin: 60px 160px 0px;
+    margin: 60px 400px 0px;
     text-align: center;
 }
 th, td {
-    padding: 10px 30px;
+    padding: 10px 60px;
+    color: #192839;
+}
+th {
+    font-size: 150%;
 }
 #quienes-somos img {
     width: 200px;
